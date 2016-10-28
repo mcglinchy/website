@@ -1,0 +1,38 @@
+body{
+    color:white; 
+    display:flex;  
+    background:gray; 
+
+} 
+
+iframe { 
+    width:150px;
+    border:none;
+} 
+
+main{ 
+    flex:10
+} 
+ul.links{ 
+    margin:0;
+    padding:10px; 
+    width: 100%;
+    list-style:none;
+}
+ul.links li{
+    display:block; 
+    margin-bottom:1px;
+}
+ul.links a {
+   display:block;
+    transition:all 1s;  
+    background:teal 
+
+} 
+
+ul.links a:hover { 
+   color:gray;
+    background:darkgray;
+    transform: scale(1.1);
+
+}
