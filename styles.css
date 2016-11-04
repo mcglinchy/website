@@ -23,10 +23,10 @@ ul.links li{
     display:block; 
     margin-bottom:1px;
 }
-ul.links a {
+ul.links a { 
    display:block;
     transition:all 1s;  
-    background:teal 
+    background:lightblue;  
 
 } 
 
